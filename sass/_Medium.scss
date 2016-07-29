@@ -1,0 +1,7 @@
+@font-face {
+    font-family: '#{$FontName}-Medium';
+    @include fontdef($FontPath, $FontName, $FontVersion, "Medium");
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}

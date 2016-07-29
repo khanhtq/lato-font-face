@@ -1,0 +1,7 @@
+@font-face {
+    font-family: '#{$FontName}-BlackItalic';
+    @include fontdef($FontPath, $FontName, $FontVersion, "BlackItalic");
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}

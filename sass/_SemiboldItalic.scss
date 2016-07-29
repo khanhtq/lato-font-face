@@ -1,0 +1,7 @@
+@font-face {
+    font-family: '#{$FontName}-SemiboldItalic';
+    @include fontdef($FontPath, $FontName, $FontVersion, "SemiboldItalic");
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}

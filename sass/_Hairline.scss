@@ -1,0 +1,7 @@
+@font-face {
+    font-family: '#{$FontName}-Hairline';
+    @include fontdef($FontPath, $FontName, $FontVersion, "Hairline");
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}

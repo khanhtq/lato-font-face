@@ -1,0 +1,7 @@
+@font-face {
+    font-family: '#{$FontName}-Black';
+    @include fontdef($FontPath, $FontName, $FontVersion, "Black");
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}

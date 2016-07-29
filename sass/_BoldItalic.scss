@@ -1,0 +1,7 @@
+@font-face {
+    font-family: '#{$FontName}-BoldItalic';
+    @include fontdef($FontPath, $FontName, $FontVersion, "BoldItalic");
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}

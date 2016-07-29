@@ -1,0 +1,7 @@
+@font-face {
+    font-family: '#{$FontName}-Italic';
+    @include fontdef($FontPath, $FontName, $FontVersion, "Italic");
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
