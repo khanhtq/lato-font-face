@@ -1,4 +1,3 @@
-/* BEGIN Regular */
 @font-face {
     font-family: 'Lato';
     @include fontdef($FontPath, $FontName, $FontVersion, "Regular");
@@ -6,4 +5,10 @@
     font-weight: normal;
     text-rendering: optimizeLegibility;
 }
-/* END Regular */
+@font-face {
+    font-family: 'Lato-Regular';
+    @include fontdef($FontPath, $FontName, $FontVersion, "Regular");
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}

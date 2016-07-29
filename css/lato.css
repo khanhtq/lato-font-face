@@ -30,7 +30,6 @@
   font-weight: normal;
   text-rendering: optimizeLegibility;
 }
-/* BEGIN Regular */
 @font-face {
   font-family: 'Lato';
   src: url("../fonts/Lato-Regular.eot?v=1.0.0");
@@ -39,7 +38,14 @@
   font-weight: normal;
   text-rendering: optimizeLegibility;
 }
-/* END Regular */
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url("../fonts/Lato-Regular.eot?v=1.0.0");
+  src: url("../fonts/Lato-Regular.eot?#iefix&v=1.0.0") format("embedded-opentype"), url("../fonts/Lato-Regular.woff2?v=1.0.0") format("woff2"), url("../fonts/Lato-Regular.woff?v=1.0.0") format("woff"), url("../fonts/Lato-Regular.ttf?v=1.0.0") format("truetype"), url("../fonts/Lato-Regular.svg?v=1.0.0#LatoRegular") format("svg");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
 @font-face {
   font-family: "Lato-Italic";
   src: url("../fonts/Lato-Italic.eot?v=1.0.0");
